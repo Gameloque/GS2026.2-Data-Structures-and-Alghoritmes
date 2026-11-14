@@ -159,22 +159,5 @@ Alguns exemplos (do `evidencias_testes.txt`):
 | Lista vazia | opção 7 sem cadastros | mensagem de lista vazia | "A lista esta vazia..." |
 | Opção inválida | digitar `abc` | rejeita e volta ao menu | "Opcao invalida..." |
 
-Também rodamos o Valgrind numa sessão com cadastro, exclusão, ordenação, atualização e saída: não teve nenhum erro e todos os blocos foram liberados.
 
-## 8. Roteiro da demonstração
 
-1. Rodar `./citizen_assist` e mostrar o aviso inicial.
-2. Opção 7 com a lista vazia.
-3. Opção 9 (carregar exemplos) e opção 7 (listar).
-4. Opção 1: cadastrar um registro novo e depois tentar repetir o mesmo id.
-5. Opção 2: consultar um id que existe e um que não existe.
-6. Opção 3: pesquisar por título (`cpf`), por categoria (`documentacao`) e um termo sem resultado.
-7. Opção 4: atualizar só o título, deixando o resto em branco.
-8. Opção 6: ordenar por título e por categoria, explicando como o Insertion Sort religa os ponteiros.
-9. Opção 5: excluir o primeiro, um do meio e o último; depois opção 8 para os indicadores.
-10. Digitar `abc` e `99` no menu e sair com 0.
-11. Rodar `make test`.
-
-## 9. Como compilar e executar
-
-Ver o `README.md`: `make`, depois `./citizen_assist`, e `make test` para os testes.
