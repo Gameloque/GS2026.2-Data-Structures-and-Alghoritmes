@@ -1,9 +1,7 @@
 # Citizen Assist AI - Documentação técnica (DSA)
 
-Global Solution 2026.2 - Data Structures and Algorithms - Turma 1CC-FEV
+Global Solution 2026.2 - Data Structures and Algorithms - Turma 1CCA
 Linguagem: C
-
-Integrantes: (preencher com nome completo e matrícula de todos)
 
 ## 1. Recorte escolhido
 
