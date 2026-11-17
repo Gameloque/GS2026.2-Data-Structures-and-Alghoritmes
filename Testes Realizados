@@ -1,0 +1,2574 @@
+==================================================
+TESTE: Vazia: listar
+ENTRADA (cada linha = um Enter):
+   > 7
+   > 0
+ESPERADO: mensagem de lista vazia
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Atendimentos --
+  A lista esta vazia. Faca um novo atendimento ou carregue exemplos.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Vazia: consultar
+ENTRADA (cada linha = um Enter):
+   > 2
+   > 0
+ESPERADO: mensagem de lista vazia
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Consultar por protocolo --
+  A lista esta vazia.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Vazia: pesquisar
+ENTRADA (cada linha = um Enter):
+   > 3
+   > 0
+ESPERADO: mensagem de lista vazia
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Pesquisar por categoria --
+  A lista esta vazia.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Vazia: atualizar
+ENTRADA (cada linha = um Enter):
+   > 4
+   > 0
+ESPERADO: mensagem de lista vazia
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Atualizar documentos --
+  A lista esta vazia.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Vazia: excluir
+ENTRADA (cada linha = um Enter):
+   > 5
+   > 0
+ESPERADO: mensagem de lista vazia
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Excluir atendimento --
+  A lista esta vazia.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Vazia: ordenar
+ENTRADA (cada linha = um Enter):
+   > 6
+   > 0
+ESPERADO: mensagem de lista vazia
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Ordenar (Selection Sort) --
+  A lista esta vazia.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Vazia: analise
+ENTRADA (cada linha = um Enter):
+   > 8
+   > 0
+ESPERADO: mensagem de lista vazia
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Analise --
+  A lista esta vazia. Nada a analisar.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Completo: situacao COMPLETO
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 0
+ESPERADO: mostra COMPLETO
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Completo: pedido registrado
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 0
+ESPERADO: mostra o pedido e a categoria
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Completo: aviso de prototipo
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 0
+ESPERADO: avisa que nao agenda de verdade
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Completo: protocolo gerado
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 0
+ESPERADO: protocolo 1
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Completo: aparece na lista
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 7
+   > 0
+ESPERADO: 1 registro na lista
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Atendimentos --
+  ID    CATEGORIA          | PEDIDO                | SITUACAO
+  [  1] Saude              | Agendar atendimento   | Completo
+  Total: 1 registro(s).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Pedido: 2a via
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > s
+   > s
+   > s
+   > 2
+   > 0
+ESPERADO: pedido 2a via
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Comprovante de residencia? >   Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Pedir 2a via (Documentacao).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Pedido: emitir documento novo
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > s
+   > s
+   > s
+   > 3
+   > 0
+ESPERADO: pedido emitir documento novo
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Comprovante de residencia? >   Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Emitir documento novo (Documentacao).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Protocolos em sequencia
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 0
+ESPERADO: segundo atendimento recebe protocolo 2
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 2
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Aceita S e N maiusculos
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > S
+   > N
+   > S
+   > 1
+   > 7
+   > 0
+ESPERADO: respostas S e N aceitas
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Comprovante de residencia? >     Falta: Comprovante de residencia
+  Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: PENDENTE - faltam 1 documento(s).
+  Reuna os documentos que faltam e use a opcao 4 para atualizar este atendimento.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Atendimentos --
+  ID    CATEGORIA          | PEDIDO                | SITUACAO
+  [  1] Documentacao       | Agendar atendimento   | Pendente (faltam 1)
+  Total: 1 registro(s).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Pendente: situacao PENDENTE
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 3
+   > s
+   > n
+   > s
+   > 2
+   > 0
+ESPERADO: mostra PENDENTE e quantos faltam
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Educacao (matricula, historico escolar).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento do aluno ou responsavel? >   Comprovante de residencia? >     Falta: Comprovante de residencia
+  Historico escolar ou certidao? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: PENDENTE - faltam 1 documento(s).
+  Reuna os documentos que faltam e use a opcao 4 para atualizar este atendimento.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Pendente: mostra o que falta
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 3
+   > s
+   > n
+   > s
+   > 2
+   > 0
+ESPERADO: mostra qual documento falta
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Educacao (matricula, historico escolar).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento do aluno ou responsavel? >   Comprovante de residencia? >     Falta: Comprovante de residencia
+  Historico escolar ou certidao? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: PENDENTE - faltam 1 documento(s).
+  Reuna os documentos que faltam e use a opcao 4 para atualizar este atendimento.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Pendente: faltam 2
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > n
+   > n
+   > s
+   > 3
+   > 0
+ESPERADO: mostra 2 documentos faltando
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >     Falta: Documento com foto
+  Comprovante de residencia? >     Falta: Comprovante de residencia
+  Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: PENDENTE - faltam 2 documento(s).
+  Reuna os documentos que faltam e use a opcao 4 para atualizar este atendimento.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Pendente: orienta atualizar
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 3
+   > s
+   > n
+   > s
+   > 2
+   > 0
+ESPERADO: orienta usar a opcao 4
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Educacao (matricula, historico escolar).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento do aluno ou responsavel? >   Comprovante de residencia? >     Falta: Comprovante de residencia
+  Historico escolar ou certidao? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: PENDENTE - faltam 1 documento(s).
+  Reuna os documentos que faltam e use a opcao 4 para atualizar este atendimento.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Pendente: nao registra pedido
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 3
+   > s
+   > n
+   > s
+   > 2
+   > 0
+ESPERADO: nao mostra pedido registrado
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Educacao (matricula, historico escolar).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento do aluno ou responsavel? >   Comprovante de residencia? >     Falta: Comprovante de residencia
+  Historico escolar ou certidao? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: PENDENTE - faltam 1 documento(s).
+  Reuna os documentos que faltam e use a opcao 4 para atualizar este atendimento.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Pendente: fica salvo
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 3
+   > s
+   > n
+   > s
+   > 2
+   > 7
+   > 0
+ESPERADO: aparece como Pendente na lista
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Educacao (matricula, historico escolar).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento do aluno ou responsavel? >   Comprovante de residencia? >     Falta: Comprovante de residencia
+  Historico escolar ou certidao? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: PENDENTE - faltam 1 documento(s).
+  Reuna os documentos que faltam e use a opcao 4 para atualizar este atendimento.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Atendimentos --
+  ID    CATEGORIA          | PEDIDO                | SITUACAO
+  [  1] Educacao           | Pedir 2a via          | Pendente (faltam 1)
+  Total: 1 registro(s).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Categoria 1
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > s
+   > s
+   > s
+   > 1
+   > 0
+ESPERADO: mensagem da categoria 1
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Comprovante de residencia? >   Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Documentacao).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Categoria 2
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 0
+ESPERADO: mensagem da categoria 2
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Categoria 3
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 3
+   > s
+   > s
+   > s
+   > 1
+   > 0
+ESPERADO: mensagem da categoria 3
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Educacao (matricula, historico escolar).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento do aluno ou responsavel? >   Comprovante de residencia? >   Historico escolar ou certidao? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Educacao).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Categoria 4
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 4
+   > s
+   > s
+   > s
+   > 1
+   > 0
+ESPERADO: mensagem da categoria 4
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Assistencia social (CadUnico, CRAS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   CPF? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Assistencia social).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Categoria 5
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 5
+   > s
+   > s
+   > s
+   > 1
+   > 0
+ESPERADO: mensagem da categoria 5
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Cidadania (titulo de eleitor).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   CPF? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Cidadania).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Documentos de Saude
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 0
+ESPERADO: Saude pergunta pelo Cartao SUS
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Documentos de Assistencia social
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 4
+   > s
+   > s
+   > s
+   > 1
+   > 0
+ESPERADO: Assistencia social pergunta pelo CPF
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Assistencia social (CadUnico, CRAS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   CPF? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Assistencia social).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Voltar na categoria
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 0
+   > 7
+   > 0
+ESPERADO: volta ao menu
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Voltando ao menu.
+  Opcao > 
+-- Atendimentos --
+  A lista esta vazia. Faca um novo atendimento ou carregue exemplos.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Voltar na categoria nao cadastra
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 0
+   > 7
+   > 0
+ESPERADO: lista continua vazia
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Voltando ao menu.
+  Opcao > 
+-- Atendimentos --
+  A lista esta vazia. Faca um novo atendimento ou carregue exemplos.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Voltar na escolha do pedido
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > s
+   > s
+   > s
+   > 0
+   > 7
+   > 0
+ESPERADO: cancela o atendimento
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Comprovante de residencia? >   Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao >   Atendimento cancelado.
+  Opcao > 
+-- Atendimentos --
+  A lista esta vazia. Faca um novo atendimento ou carregue exemplos.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Cancelado nao cadastra
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > s
+   > s
+   > s
+   > 0
+   > 7
+   > 0
+ESPERADO: lista continua vazia
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Comprovante de residencia? >   Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao >   Atendimento cancelado.
+  Opcao > 
+-- Atendimentos --
+  A lista esta vazia. Faca um novo atendimento ou carregue exemplos.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Consultar existente
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 2
+   > 1
+   > 0
+ESPERADO: categoria do protocolo 1
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Consultar por protocolo --
+  Protocolo:   Protocolo ..: 1
+  Categoria ..: Saude
+  Pedido .....: Agendar atendimento
+  Situacao ...: Completo
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Consultar mostra o pedido
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 2
+   > 1
+   > 0
+ESPERADO: pedido do protocolo 1
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Consultar por protocolo --
+  Protocolo:   Protocolo ..: 1
+  Categoria ..: Saude
+  Pedido .....: Agendar atendimento
+  Situacao ...: Completo
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Consultar mostra a situacao
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 2
+   > 1
+   > 0
+ESPERADO: situacao Completo
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Consultar por protocolo --
+  Protocolo:   Protocolo ..: 1
+  Categoria ..: Saude
+  Pedido .....: Agendar atendimento
+  Situacao ...: Completo
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Consultar pendente
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 3
+   > s
+   > n
+   > s
+   > 2
+   > 2
+   > 1
+   > 0
+ESPERADO: situacao Pendente
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Educacao (matricula, historico escolar).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento do aluno ou responsavel? >   Comprovante de residencia? >     Falta: Comprovante de residencia
+  Historico escolar ou certidao? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: PENDENTE - faltam 1 documento(s).
+  Reuna os documentos que faltam e use a opcao 4 para atualizar este atendimento.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Consultar por protocolo --
+  Protocolo:   Protocolo ..: 1
+  Categoria ..: Educacao
+  Pedido .....: Pedir 2a via
+  Situacao ...: Pendente (faltam 1)
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Consultar protocolo inexistente
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 2
+   > 999
+   > 0
+ESPERADO: mensagem de nao encontrado
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Consultar por protocolo --
+  Protocolo:   Nenhum atendimento encontrado com o protocolo 999.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Pesquisa: Saude
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 3
+   > 2
+   > 0
+ESPERADO: 1 resultado
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Pesquisar por categoria --
+  Categoria >   Resultados:
+  [  2] Saude              | Agendar atendimento   | Completo
+  1 resultado(s).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Pesquisa: Documentacao
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 3
+   > 1
+   > 0
+ESPERADO: 2 resultados
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Pesquisar por categoria --
+  Categoria >   Resultados:
+  [  1] Documentacao       | Pedir 2a via          | Completo
+  [  6] Documentacao       | Emitir documento novo | Completo
+  2 resultado(s).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Pesquisa sem resultado
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 3
+   > 1
+   > 0
+ESPERADO: mensagem sem resultado
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Pesquisar por categoria --
+  Categoria >   Nenhum atendimento da categoria "Documentacao".
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Pesquisa: opcao invalida
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 3
+   > 7
+   > 2
+   > 0
+ESPERADO: rejeita 7
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Pesquisar por categoria --
+  Categoria >   [!] Opcao invalida. Digite um numero de 1 a 5.
+  Categoria >   Resultados:
+  [  2] Saude              | Agendar atendimento   | Completo
+  1 resultado(s).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Exemplos: total
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 7
+   > 0
+ESPERADO: 6 registros
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Atendimentos --
+  ID    CATEGORIA          | PEDIDO                | SITUACAO
+  [  1] Documentacao       | Pedir 2a via          | Completo
+  [  2] Saude              | Agendar atendimento   | Completo
+  [  3] Educacao           | Emitir documento novo | Pendente (faltam 1)
+  [  4] Assistencia social | Agendar atendimento   | Completo
+  [  5] Cidadania          | Pedir 2a via          | Pendente (faltam 2)
+  [  6] Documentacao       | Emitir documento novo | Completo
+  Total: 6 registro(s).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Exemplos: mensagem
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 0
+ESPERADO: mensagem de carga
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Exemplos duas vezes
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 9
+   > 7
+   > 0
+ESPERADO: 12 registros
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Atendimentos --
+  ID    CATEGORIA          | PEDIDO                | SITUACAO
+  [  1] Documentacao       | Pedir 2a via          | Completo
+  [  2] Saude              | Agendar atendimento   | Completo
+  [  3] Educacao           | Emitir documento novo | Pendente (faltam 1)
+  [  4] Assistencia social | Agendar atendimento   | Completo
+  [  5] Cidadania          | Pedir 2a via          | Pendente (faltam 2)
+  [  6] Documentacao       | Emitir documento novo | Completo
+  [  7] Documentacao       | Pedir 2a via          | Completo
+  [  8] Saude              | Agendar atendimento   | Completo
+  [  9] Educacao           | Emitir documento novo | Pendente (faltam 1)
+  [ 10] Assistencia social | Agendar atendimento   | Completo
+  [ 11] Cidadania          | Pedir 2a via          | Pendente (faltam 2)
+  [ 12] Documentacao       | Emitir documento novo | Completo
+  Total: 12 registro(s).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Protocolo depois dos exemplos
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 0
+ESPERADO: novo atendimento recebe protocolo 7
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 7
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Atualizar: pendente vira completo
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 3
+   > s
+   > n
+   > s
+   > 2
+   > 4
+   > 1
+   > s
+   > s
+   > s
+   > 2
+   > 1
+   > 0
+ESPERADO: situacao Completo
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Educacao (matricula, historico escolar).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento do aluno ou responsavel? >   Comprovante de residencia? >     Falta: Comprovante de residencia
+  Historico escolar ou certidao? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: PENDENTE - faltam 1 documento(s).
+  Reuna os documentos que faltam e use a opcao 4 para atualizar este atendimento.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Atualizar documentos --
+  Protocolo do atendimento:   Atendimento atual:
+  Protocolo ..: 1
+  Categoria ..: Educacao
+  Pedido .....: Pedir 2a via
+  Situacao ...: Pendente (faltam 1)
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento do aluno ou responsavel? >   Comprovante de residencia? >   Historico escolar ou certidao? > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Atendimento 1 atualizado.
+  Opcao > 
+-- Consultar por protocolo --
+  Protocolo:   Protocolo ..: 1
+  Categoria ..: Educacao
+  Pedido .....: Pedir 2a via
+  Situacao ...: Completo
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Atualizar: confirma
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 3
+   > s
+   > n
+   > s
+   > 2
+   > 4
+   > 1
+   > s
+   > s
+   > s
+   > 2
+   > 1
+   > 0
+ESPERADO: mensagem de atualizado
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Educacao (matricula, historico escolar).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento do aluno ou responsavel? >   Comprovante de residencia? >     Falta: Comprovante de residencia
+  Historico escolar ou certidao? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: PENDENTE - faltam 1 documento(s).
+  Reuna os documentos que faltam e use a opcao 4 para atualizar este atendimento.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Atualizar documentos --
+  Protocolo do atendimento:   Atendimento atual:
+  Protocolo ..: 1
+  Categoria ..: Educacao
+  Pedido .....: Pedir 2a via
+  Situacao ...: Pendente (faltam 1)
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento do aluno ou responsavel? >   Comprovante de residencia? >   Historico escolar ou certidao? > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Atendimento 1 atualizado.
+  Opcao > 
+-- Consultar por protocolo --
+  Protocolo:   Protocolo ..: 1
+  Categoria ..: Educacao
+  Pedido .....: Pedir 2a via
+  Situacao ...: Completo
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Atualizar: completo vira pendente
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 4
+   > 1
+   > n
+   > n
+   > n
+   > 2
+   > 1
+   > 0
+ESPERADO: situacao Pendente com 3 faltando
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Atualizar documentos --
+  Protocolo do atendimento:   Atendimento atual:
+  Protocolo ..: 1
+  Categoria ..: Saude
+  Pedido .....: Agendar atendimento
+  Situacao ...: Completo
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >     Falta: Documento com foto
+  Cartao SUS? >     Falta: Cartao SUS
+  Comprovante de residencia? >     Falta: Comprovante de residencia
+  Situacao: PENDENTE - faltam 3 documento(s).
+  Atendimento 1 atualizado.
+  Opcao > 
+-- Consultar por protocolo --
+  Protocolo:   Protocolo ..: 1
+  Categoria ..: Saude
+  Pedido .....: Agendar atendimento
+  Situacao ...: Pendente (faltam 3)
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Atualizar protocolo inexistente
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 4
+   > 999
+   > 0
+ESPERADO: mensagem de nao encontrado
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Atualizar documentos --
+  Protocolo do atendimento:   Nenhum atendimento encontrado com o protocolo 999.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Excluir existente
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 5
+   > 1
+   > 7
+   > 0
+ESPERADO: exclusao confirmada
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Excluir atendimento --
+  Protocolo do atendimento:   Atendimento 1 excluido.
+  Opcao > 
+-- Atendimentos --
+  A lista esta vazia. Faca um novo atendimento ou carregue exemplos.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Excluir deixa lista vazia
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 5
+   > 1
+   > 7
+   > 0
+ESPERADO: lista vazia
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Excluir atendimento --
+  Protocolo do atendimento:   Atendimento 1 excluido.
+  Opcao > 
+-- Atendimentos --
+  A lista esta vazia. Faca um novo atendimento ou carregue exemplos.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Excluir o primeiro
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 5
+   > 1
+   > 7
+   > 0
+ESPERADO: 5 registros
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Excluir atendimento --
+  Protocolo do atendimento:   Atendimento 1 excluido.
+  Opcao > 
+-- Atendimentos --
+  ID    CATEGORIA          | PEDIDO                | SITUACAO
+  [  2] Saude              | Agendar atendimento   | Completo
+  [  3] Educacao           | Emitir documento novo | Pendente (faltam 1)
+  [  4] Assistencia social | Agendar atendimento   | Completo
+  [  5] Cidadania          | Pedir 2a via          | Pendente (faltam 2)
+  [  6] Documentacao       | Emitir documento novo | Completo
+  Total: 5 registro(s).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Excluir do meio
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 5
+   > 3
+   > 7
+   > 0
+ESPERADO: 5 registros
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Excluir atendimento --
+  Protocolo do atendimento:   Atendimento 3 excluido.
+  Opcao > 
+-- Atendimentos --
+  ID    CATEGORIA          | PEDIDO                | SITUACAO
+  [  1] Documentacao       | Pedir 2a via          | Completo
+  [  2] Saude              | Agendar atendimento   | Completo
+  [  4] Assistencia social | Agendar atendimento   | Completo
+  [  5] Cidadania          | Pedir 2a via          | Pendente (faltam 2)
+  [  6] Documentacao       | Emitir documento novo | Completo
+  Total: 5 registro(s).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Excluir o ultimo
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 5
+   > 6
+   > 7
+   > 0
+ESPERADO: 5 registros
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Excluir atendimento --
+  Protocolo do atendimento:   Atendimento 6 excluido.
+  Opcao > 
+-- Atendimentos --
+  ID    CATEGORIA          | PEDIDO                | SITUACAO
+  [  1] Documentacao       | Pedir 2a via          | Completo
+  [  2] Saude              | Agendar atendimento   | Completo
+  [  3] Educacao           | Emitir documento novo | Pendente (faltam 1)
+  [  4] Assistencia social | Agendar atendimento   | Completo
+  [  5] Cidadania          | Pedir 2a via          | Pendente (faltam 2)
+  Total: 5 registro(s).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Excluir protocolo inexistente
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 5
+   > 999
+   > 0
+ESPERADO: mensagem de nao encontrado
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Excluir atendimento --
+  Protocolo do atendimento:   Nenhum atendimento encontrado com o protocolo 999.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Protocolo nao e reaproveitado
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 5
+   > 1
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 0
+ESPERADO: protocolo 2 depois de excluir o 1
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Excluir atendimento --
+  Protocolo do atendimento:   Atendimento 1 excluido.
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Saude).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 2
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Ordenar por categoria
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 3
+   > n
+   > n
+   > n
+   > 2
+   > 1
+   > 1
+   > n
+   > n
+   > n
+   > 1
+   > 1
+   > 2
+   > n
+   > n
+   > n
+   > 3
+   > 6
+   > 2
+   > 0
+ESPERADO (ordem dos protocolos): 2,3,1,
+OBSERVADO: 2,3,1,
+RESULTADO: PASSOU
+==================================================
+TESTE: Ordenar por pedido
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 3
+   > n
+   > n
+   > n
+   > 2
+   > 1
+   > 1
+   > n
+   > n
+   > n
+   > 1
+   > 1
+   > 2
+   > n
+   > n
+   > n
+   > 3
+   > 6
+   > 3
+   > 0
+ESPERADO (ordem dos protocolos): 2,1,3,
+OBSERVADO: 2,1,3,
+RESULTADO: PASSOU
+==================================================
+TESTE: Ordenar por categoria e voltar por protocolo
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 3
+   > n
+   > n
+   > n
+   > 2
+   > 1
+   > 1
+   > n
+   > n
+   > n
+   > 1
+   > 1
+   > 2
+   > n
+   > n
+   > n
+   > 3
+   > 6
+   > 2
+   > 6
+   > 1
+   > 0
+ESPERADO (ordem dos protocolos): 2,3,1,1,2,3,
+OBSERVADO: 2,3,1,1,2,3,
+RESULTADO: PASSOU
+==================================================
+TESTE: Ordenar lista de 1 elemento
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 6
+   > 1
+   > 0
+ESPERADO (ordem dos protocolos): 1,
+OBSERVADO: 1,
+RESULTADO: PASSOU
+==================================================
+TESTE: Ordenar lista ja ordenada
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 6
+   > 1
+   > 0
+ESPERADO (ordem dos protocolos): 1,2,3,4,5,6,
+OBSERVADO: 1,2,3,4,5,6,
+RESULTADO: PASSOU
+==================================================
+TESTE: Ordenar: criterio invalido
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 6
+   > 7
+   > 1
+   > 0
+ESPERADO: rejeita opcao 7
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Ordenar (Selection Sort) --
+  Criterio: 1) Protocolo  2) Categoria  3) Pedido  >   [!] Opcao invalida. Digite um numero de 1 a 3.
+  Criterio: 1) Protocolo  2) Categoria  3) Pedido  >   Lista ordenada. Resultado:
+  ID    CATEGORIA          | PEDIDO                | SITUACAO
+  [  1] Documentacao       | Pedir 2a via          | Completo
+  [  2] Saude              | Agendar atendimento   | Completo
+  [  3] Educacao           | Emitir documento novo | Pendente (faltam 1)
+  [  4] Assistencia social | Agendar atendimento   | Completo
+  [  5] Cidadania          | Pedir 2a via          | Pendente (faltam 2)
+  [  6] Documentacao       | Emitir documento novo | Completo
+  Total: 6 registro(s).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Analise: total
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 8
+   > 0
+ESPERADO: total = 6
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Analise --
+  Total de atendimentos: 6
+  Por categoria:
+    - Documentacao         2
+    - Saude                1
+    - Educacao             1
+    - Assistencia social   1
+    - Cidadania            1
+  Documentos completos: 4
+  Documentos pendentes: 2
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Analise: Documentacao
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 8
+   > 0
+ESPERADO: Documentacao = 2
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Analise --
+  Total de atendimentos: 6
+  Por categoria:
+    - Documentacao         2
+    - Saude                1
+    - Educacao             1
+    - Assistencia social   1
+    - Cidadania            1
+  Documentos completos: 4
+  Documentos pendentes: 2
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Analise: Saude
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 8
+   > 0
+ESPERADO: Saude = 1
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Analise --
+  Total de atendimentos: 6
+  Por categoria:
+    - Documentacao         2
+    - Saude                1
+    - Educacao             1
+    - Assistencia social   1
+    - Cidadania            1
+  Documentos completos: 4
+  Documentos pendentes: 2
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Analise: completos
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 8
+   > 0
+ESPERADO: completos = 4
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Analise --
+  Total de atendimentos: 6
+  Por categoria:
+    - Documentacao         2
+    - Saude                1
+    - Educacao             1
+    - Assistencia social   1
+    - Cidadania            1
+  Documentos completos: 4
+  Documentos pendentes: 2
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Analise: pendentes
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 8
+   > 0
+ESPERADO: pendentes = 2
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Analise --
+  Total de atendimentos: 6
+  Por categoria:
+    - Documentacao         2
+    - Saude                1
+    - Educacao             1
+    - Assistencia social   1
+    - Cidadania            1
+  Documentos completos: 4
+  Documentos pendentes: 2
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Menu: texto
+ENTRADA (cada linha = um Enter):
+   > abc
+   > 0
+ESPERADO: rejeita texto
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao >   [!] Opcao invalida. Digite um numero de 0 a 9.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Menu: numero fora da faixa
+ENTRADA (cada linha = um Enter):
+   > 99
+   > 0
+ESPERADO: rejeita 99
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao >   [!] Opcao invalida. Digite um numero de 0 a 9.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Menu: negativo
+ENTRADA (cada linha = um Enter):
+   > -1
+   > 0
+ESPERADO: rejeita -1
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao >   [!] Opcao invalida. Digite um numero de 0 a 9.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Menu: decimal
+ENTRADA (cada linha = um Enter):
+   > 3.5
+   > 0
+ESPERADO: rejeita 3.5
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao >   [!] Opcao invalida. Digite um numero de 0 a 9.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Menu: vazio
+ENTRADA (cada linha = um Enter):
+   > 
+   > 0
+ESPERADO: rejeita Enter vazio
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao >   [!] Opcao invalida. Digite um numero de 0 a 9.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Categoria invalida
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 9
+   > abc
+   > 0
+   > 0
+ESPERADO: rejeita 9 e texto
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   [!] Opcao invalida. Digite um numero de 0 a 5.
+  Escolha a categoria do atendimento:
+  Categoria >   [!] Opcao invalida. Digite um numero de 0 a 5.
+  Escolha a categoria do atendimento:
+  Categoria >   Voltando ao menu.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Resposta s/n invalida
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > x
+   > s
+   > s
+   > s
+   > 1
+   > 0
+ESPERADO: rejeita x e pergunta de novo
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   [!] Resposta invalida. Digite s ou n.
+  >   Comprovante de residencia? >   Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Documentacao).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Pedido invalido
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > s
+   > s
+   > s
+   > 9
+   > 1
+   > 0
+ESPERADO: rejeita 9
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Comprovante de residencia? >   Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao >   [!] Opcao invalida. Digite um numero de 0 a 3.
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Pedido registrado: Agendar atendimento (Documentacao).
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Protocolo: texto
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 2
+   > abc
+   > 1
+   > 0
+ESPERADO: rejeita texto
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Consultar por protocolo --
+  Protocolo:   [!] Entrada invalida. Digite um numero inteiro positivo.
+  Protocolo:   Protocolo ..: 1
+  Categoria ..: Documentacao
+  Pedido .....: Pedir 2a via
+  Situacao ...: Completo
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Protocolo: zero
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 2
+   > 0
+   > 1
+   > 0
+ESPERADO: rejeita 0
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Consultar por protocolo --
+  Protocolo:   [!] Entrada invalida. Digite um numero inteiro positivo.
+  Protocolo:   Protocolo ..: 1
+  Categoria ..: Documentacao
+  Pedido .....: Pedir 2a via
+  Situacao ...: Completo
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Protocolo: negativo
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 2
+   > -5
+   > 1
+   > 0
+ESPERADO: rejeita -5
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Consultar por protocolo --
+  Protocolo:   [!] Entrada invalida. Digite um numero inteiro positivo.
+  Protocolo:   Protocolo ..: 1
+  Categoria ..: Documentacao
+  Pedido .....: Pedir 2a via
+  Situacao ...: Completo
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Protocolo: decimal
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 2
+   > 3.5
+   > 1
+   > 0
+ESPERADO: rejeita 3.5
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Consultar por protocolo --
+  Protocolo:   [!] Entrada invalida. Digite um numero inteiro positivo.
+  Protocolo:   Protocolo ..: 1
+  Categoria ..: Documentacao
+  Pedido .....: Pedir 2a via
+  Situacao ...: Completo
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Linha muito longa
+ENTRADA (cada linha = um Enter):
+   > xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   > 0
+ESPERADO: rejeita e nao quebra a proxima leitura
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao >   [!] Opcao invalida. Digite um numero de 0 a 9.
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Sair pela opcao 0
+ENTRADA (cada linha = um Enter):
+   > 0
+ESPERADO: encerra com mensagem
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Fim da entrada (EOF)
+ENTRADA (cada linha = um Enter):
+ESPERADO: encerra sem travar
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  Entrada encerrada. Memoria liberada.
+==================================================
+TESTE: Aviso inicial
+ENTRADA (cada linha = um Enter):
+   > 0
+ESPERADO: mostra o aviso de limitacao
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Aviso: sem dados pessoais
+ENTRADA (cada linha = um Enter):
+   > 0
+ESPERADO: pede para nao digitar dados pessoais
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+RESUMO: 85 passaram, 0 falharam
+==================================================
+VALGRIND (exemplos, novo atendimento, exclusao, ordenacao, atualizacao e saida):
+==4669== HEAP SUMMARY:
+==4669==   total heap usage: 9 allocs, 9 frees, 8,360 bytes allocated
+==4669== All heap blocks were freed -- no leaks are possible
+==4669== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
