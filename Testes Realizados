@@ -133,6 +133,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 0
 ESPERADO: mostra COMPLETO
 RESULTADO: PASSOU
@@ -152,7 +154,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -166,6 +170,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 0
 ESPERADO: mostra o pedido e a categoria
 RESULTADO: PASSOU
@@ -185,7 +191,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -199,6 +207,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 0
 ESPERADO: avisa que nao agenda de verdade
 RESULTADO: PASSOU
@@ -218,7 +228,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -232,6 +244,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 0
 ESPERADO: protocolo 1
 RESULTADO: PASSOU
@@ -251,7 +265,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -265,6 +281,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 7
    > 0
 ESPERADO: 1 registro na lista
@@ -285,13 +303,15 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
 -- Atendimentos --
-  ID    CATEGORIA          | PEDIDO                | SITUACAO
-  [  1] Saude              | Agendar atendimento   | Completo
+  ID    CATEGORIA          | PEDIDO                | DATA       | SITUACAO
+  [  1] Saude              | Agendar atendimento   | 10/12/2026 | Completo
   Total: 1 registro(s).
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
@@ -304,6 +324,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 2
+   > 12
+   > 10
    > 0
 ESPERADO: pedido 2a via
 RESULTADO: PASSOU
@@ -323,7 +345,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Pedir 2a via (Documentacao).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Pedir 2a via (Documentacao) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -337,6 +361,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 3
+   > 12
+   > 10
    > 0
 ESPERADO: pedido emitir documento novo
 RESULTADO: PASSOU
@@ -356,7 +382,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Emitir documento novo (Documentacao).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Emitir documento novo (Documentacao) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -370,12 +398,16 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 1
    > 2
    > s
    > s
    > s
    > 1
+   > 12
+   > 10
    > 0
 ESPERADO: segundo atendimento recebe protocolo 2
 RESULTADO: PASSOU
@@ -395,7 +427,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -408,7 +442,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 2
   Opcao > 
@@ -447,8 +483,8 @@ Consulte sempre as fontes oficiais (gov.br).
   Atendimento registrado. Protocolo: 1
   Opcao > 
 -- Atendimentos --
-  ID    CATEGORIA          | PEDIDO                | SITUACAO
-  [  1] Documentacao       | Agendar atendimento   | Pendente (faltam 1)
+  ID    CATEGORIA          | PEDIDO                | DATA       | SITUACAO
+  [  1] Documentacao       | Agendar atendimento   | - | Pendente (faltam 1)
   Total: 1 registro(s).
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
@@ -652,8 +688,8 @@ Consulte sempre as fontes oficiais (gov.br).
   Atendimento registrado. Protocolo: 1
   Opcao > 
 -- Atendimentos --
-  ID    CATEGORIA          | PEDIDO                | SITUACAO
-  [  1] Educacao           | Pedir 2a via          | Pendente (faltam 1)
+  ID    CATEGORIA          | PEDIDO                | DATA       | SITUACAO
+  [  1] Educacao           | Pedir 2a via          | - | Pendente (faltam 1)
   Total: 1 registro(s).
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
@@ -666,6 +702,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 0
 ESPERADO: mensagem da categoria 1
 RESULTADO: PASSOU
@@ -685,7 +723,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Documentacao).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Documentacao) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -699,6 +739,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 0
 ESPERADO: mensagem da categoria 2
 RESULTADO: PASSOU
@@ -718,7 +760,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -732,6 +776,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 0
 ESPERADO: mensagem da categoria 3
 RESULTADO: PASSOU
@@ -751,7 +797,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Educacao).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Educacao) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -765,6 +813,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 0
 ESPERADO: mensagem da categoria 4
 RESULTADO: PASSOU
@@ -784,7 +834,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Assistencia social).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Assistencia social) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -798,6 +850,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 0
 ESPERADO: mensagem da categoria 5
 RESULTADO: PASSOU
@@ -817,7 +871,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Cidadania).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Cidadania) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -831,6 +887,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 0
 ESPERADO: Saude pergunta pelo Cartao SUS
 RESULTADO: PASSOU
@@ -850,7 +908,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -864,6 +924,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 0
 ESPERADO: Assistencia social pergunta pelo CPF
 RESULTADO: PASSOU
@@ -883,7 +945,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Assistencia social).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Assistencia social) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -1011,6 +1075,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 2
    > 1
    > 0
@@ -1032,7 +1098,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -1041,6 +1109,7 @@ Consulte sempre as fontes oficiais (gov.br).
   Categoria ..: Saude
   Pedido .....: Agendar atendimento
   Situacao ...: Completo
+  Data .......: 10/12/2026
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
 ==================================================
@@ -1052,6 +1121,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 2
    > 1
    > 0
@@ -1073,7 +1144,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -1082,6 +1155,7 @@ Consulte sempre as fontes oficiais (gov.br).
   Categoria ..: Saude
   Pedido .....: Agendar atendimento
   Situacao ...: Completo
+  Data .......: 10/12/2026
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
 ==================================================
@@ -1093,6 +1167,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 2
    > 1
    > 0
@@ -1114,7 +1190,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -1123,6 +1201,7 @@ Consulte sempre as fontes oficiais (gov.br).
   Categoria ..: Saude
   Pedido .....: Agendar atendimento
   Situacao ...: Completo
+  Data .......: 10/12/2026
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
 ==================================================
@@ -1164,6 +1243,7 @@ Consulte sempre as fontes oficiais (gov.br).
   Categoria ..: Educacao
   Pedido .....: Pedir 2a via
   Situacao ...: Pendente (faltam 1)
+  Data .......: -
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
 ==================================================
@@ -1175,6 +1255,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 2
    > 999
    > 0
@@ -1196,7 +1278,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -1224,7 +1308,7 @@ Consulte sempre as fontes oficiais (gov.br).
   Opcao > 
 -- Pesquisar por categoria --
   Categoria >   Resultados:
-  [  2] Saude              | Agendar atendimento   | Completo
+  [  2] Saude              | Agendar atendimento   | 05/12/2026 | Completo
   1 resultado(s).
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
@@ -1248,8 +1332,8 @@ Consulte sempre as fontes oficiais (gov.br).
   Opcao > 
 -- Pesquisar por categoria --
   Categoria >   Resultados:
-  [  1] Documentacao       | Pedir 2a via          | Completo
-  [  6] Documentacao       | Emitir documento novo | Completo
+  [  1] Documentacao       | Pedir 2a via          | 10/12/2026 | Completo
+  [  6] Documentacao       | Emitir documento novo | 03/12/2026 | Completo
   2 resultado(s).
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
@@ -1262,6 +1346,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 3
    > 1
    > 0
@@ -1283,7 +1369,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -1313,7 +1401,7 @@ Consulte sempre as fontes oficiais (gov.br).
 -- Pesquisar por categoria --
   Categoria >   [!] Opcao invalida. Digite um numero de 1 a 5.
   Categoria >   Resultados:
-  [  2] Saude              | Agendar atendimento   | Completo
+  [  2] Saude              | Agendar atendimento   | 05/12/2026 | Completo
   1 resultado(s).
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
@@ -1335,13 +1423,13 @@ Consulte sempre as fontes oficiais (gov.br).
   6 atendimento(s) de exemplo carregado(s).
   Opcao > 
 -- Atendimentos --
-  ID    CATEGORIA          | PEDIDO                | SITUACAO
-  [  1] Documentacao       | Pedir 2a via          | Completo
-  [  2] Saude              | Agendar atendimento   | Completo
-  [  3] Educacao           | Emitir documento novo | Pendente (faltam 1)
-  [  4] Assistencia social | Agendar atendimento   | Completo
-  [  5] Cidadania          | Pedir 2a via          | Pendente (faltam 2)
-  [  6] Documentacao       | Emitir documento novo | Completo
+  ID    CATEGORIA          | PEDIDO                | DATA       | SITUACAO
+  [  1] Documentacao       | Pedir 2a via          | 10/12/2026 | Completo
+  [  2] Saude              | Agendar atendimento   | 05/12/2026 | Completo
+  [  3] Educacao           | Emitir documento novo | - | Pendente (faltam 1)
+  [  4] Assistencia social | Agendar atendimento   | 20/11/2026 | Completo
+  [  5] Cidadania          | Pedir 2a via          | - | Pendente (faltam 2)
+  [  6] Documentacao       | Emitir documento novo | 03/12/2026 | Completo
   Total: 6 registro(s).
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
@@ -1383,19 +1471,19 @@ Consulte sempre as fontes oficiais (gov.br).
   6 atendimento(s) de exemplo carregado(s).
   Opcao > 
 -- Atendimentos --
-  ID    CATEGORIA          | PEDIDO                | SITUACAO
-  [  1] Documentacao       | Pedir 2a via          | Completo
-  [  2] Saude              | Agendar atendimento   | Completo
-  [  3] Educacao           | Emitir documento novo | Pendente (faltam 1)
-  [  4] Assistencia social | Agendar atendimento   | Completo
-  [  5] Cidadania          | Pedir 2a via          | Pendente (faltam 2)
-  [  6] Documentacao       | Emitir documento novo | Completo
-  [  7] Documentacao       | Pedir 2a via          | Completo
-  [  8] Saude              | Agendar atendimento   | Completo
-  [  9] Educacao           | Emitir documento novo | Pendente (faltam 1)
-  [ 10] Assistencia social | Agendar atendimento   | Completo
-  [ 11] Cidadania          | Pedir 2a via          | Pendente (faltam 2)
-  [ 12] Documentacao       | Emitir documento novo | Completo
+  ID    CATEGORIA          | PEDIDO                | DATA       | SITUACAO
+  [  1] Documentacao       | Pedir 2a via          | 10/12/2026 | Completo
+  [  2] Saude              | Agendar atendimento   | 05/12/2026 | Completo
+  [  3] Educacao           | Emitir documento novo | - | Pendente (faltam 1)
+  [  4] Assistencia social | Agendar atendimento   | 20/11/2026 | Completo
+  [  5] Cidadania          | Pedir 2a via          | - | Pendente (faltam 2)
+  [  6] Documentacao       | Emitir documento novo | 03/12/2026 | Completo
+  [  7] Documentacao       | Pedir 2a via          | 10/12/2026 | Completo
+  [  8] Saude              | Agendar atendimento   | 05/12/2026 | Completo
+  [  9] Educacao           | Emitir documento novo | - | Pendente (faltam 1)
+  [ 10] Assistencia social | Agendar atendimento   | 20/11/2026 | Completo
+  [ 11] Cidadania          | Pedir 2a via          | - | Pendente (faltam 2)
+  [ 12] Documentacao       | Emitir documento novo | 03/12/2026 | Completo
   Total: 12 registro(s).
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
@@ -1409,6 +1497,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 0
 ESPERADO: novo atendimento recebe protocolo 7
 RESULTADO: PASSOU
@@ -1430,7 +1520,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 7
   Opcao > 
@@ -1449,6 +1541,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > s
+   > 12
+   > 10
    > 2
    > 1
    > 0
@@ -1480,17 +1574,20 @@ Consulte sempre as fontes oficiais (gov.br).
   Categoria ..: Educacao
   Pedido .....: Pedir 2a via
   Situacao ...: Pendente (faltam 1)
+  Data .......: -
   Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
   Nao digite numeros de documentos, so responda s ou n.
   Documento do aluno ou responsavel? >   Comprovante de residencia? >   Historico escolar ou certidao? > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Atendimento 1 atualizado.
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) >   Atendimento 1 atualizado.
   Opcao > 
 -- Consultar por protocolo --
   Protocolo:   Protocolo ..: 1
   Categoria ..: Educacao
   Pedido .....: Pedir 2a via
   Situacao ...: Completo
+  Data .......: 10/12/2026
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
 ==================================================
@@ -1507,6 +1604,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > s
+   > 12
+   > 10
    > 2
    > 1
    > 0
@@ -1538,17 +1637,20 @@ Consulte sempre as fontes oficiais (gov.br).
   Categoria ..: Educacao
   Pedido .....: Pedir 2a via
   Situacao ...: Pendente (faltam 1)
+  Data .......: -
   Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
   Nao digite numeros de documentos, so responda s ou n.
   Documento do aluno ou responsavel? >   Comprovante de residencia? >   Historico escolar ou certidao? > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Atendimento 1 atualizado.
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) >   Atendimento 1 atualizado.
   Opcao > 
 -- Consultar por protocolo --
   Protocolo:   Protocolo ..: 1
   Categoria ..: Educacao
   Pedido .....: Pedir 2a via
   Situacao ...: Completo
+  Data .......: 10/12/2026
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
 ==================================================
@@ -1560,6 +1662,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 4
    > 1
    > n
@@ -1586,7 +1690,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -1596,6 +1702,7 @@ Consulte sempre as fontes oficiais (gov.br).
   Categoria ..: Saude
   Pedido .....: Agendar atendimento
   Situacao ...: Completo
+  Data .......: 10/12/2026
   Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
   Nao digite numeros de documentos, so responda s ou n.
   Documento com foto? >     Falta: Documento com foto
@@ -1609,6 +1716,7 @@ Consulte sempre as fontes oficiais (gov.br).
   Categoria ..: Saude
   Pedido .....: Agendar atendimento
   Situacao ...: Pendente (faltam 3)
+  Data .......: 10/12/2026
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
 ==================================================
@@ -1620,6 +1728,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 4
    > 999
    > 0
@@ -1641,7 +1751,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -1658,6 +1770,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 5
    > 1
    > 7
@@ -1680,7 +1794,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -1700,6 +1816,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 5
    > 1
    > 7
@@ -1722,7 +1840,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -1756,12 +1876,12 @@ Consulte sempre as fontes oficiais (gov.br).
   Protocolo do atendimento:   Atendimento 1 excluido.
   Opcao > 
 -- Atendimentos --
-  ID    CATEGORIA          | PEDIDO                | SITUACAO
-  [  2] Saude              | Agendar atendimento   | Completo
-  [  3] Educacao           | Emitir documento novo | Pendente (faltam 1)
-  [  4] Assistencia social | Agendar atendimento   | Completo
-  [  5] Cidadania          | Pedir 2a via          | Pendente (faltam 2)
-  [  6] Documentacao       | Emitir documento novo | Completo
+  ID    CATEGORIA          | PEDIDO                | DATA       | SITUACAO
+  [  2] Saude              | Agendar atendimento   | 05/12/2026 | Completo
+  [  3] Educacao           | Emitir documento novo | - | Pendente (faltam 1)
+  [  4] Assistencia social | Agendar atendimento   | 20/11/2026 | Completo
+  [  5] Cidadania          | Pedir 2a via          | - | Pendente (faltam 2)
+  [  6] Documentacao       | Emitir documento novo | 03/12/2026 | Completo
   Total: 5 registro(s).
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
@@ -1788,12 +1908,12 @@ Consulte sempre as fontes oficiais (gov.br).
   Protocolo do atendimento:   Atendimento 3 excluido.
   Opcao > 
 -- Atendimentos --
-  ID    CATEGORIA          | PEDIDO                | SITUACAO
-  [  1] Documentacao       | Pedir 2a via          | Completo
-  [  2] Saude              | Agendar atendimento   | Completo
-  [  4] Assistencia social | Agendar atendimento   | Completo
-  [  5] Cidadania          | Pedir 2a via          | Pendente (faltam 2)
-  [  6] Documentacao       | Emitir documento novo | Completo
+  ID    CATEGORIA          | PEDIDO                | DATA       | SITUACAO
+  [  1] Documentacao       | Pedir 2a via          | 10/12/2026 | Completo
+  [  2] Saude              | Agendar atendimento   | 05/12/2026 | Completo
+  [  4] Assistencia social | Agendar atendimento   | 20/11/2026 | Completo
+  [  5] Cidadania          | Pedir 2a via          | - | Pendente (faltam 2)
+  [  6] Documentacao       | Emitir documento novo | 03/12/2026 | Completo
   Total: 5 registro(s).
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
@@ -1820,12 +1940,12 @@ Consulte sempre as fontes oficiais (gov.br).
   Protocolo do atendimento:   Atendimento 6 excluido.
   Opcao > 
 -- Atendimentos --
-  ID    CATEGORIA          | PEDIDO                | SITUACAO
-  [  1] Documentacao       | Pedir 2a via          | Completo
-  [  2] Saude              | Agendar atendimento   | Completo
-  [  3] Educacao           | Emitir documento novo | Pendente (faltam 1)
-  [  4] Assistencia social | Agendar atendimento   | Completo
-  [  5] Cidadania          | Pedir 2a via          | Pendente (faltam 2)
+  ID    CATEGORIA          | PEDIDO                | DATA       | SITUACAO
+  [  1] Documentacao       | Pedir 2a via          | 10/12/2026 | Completo
+  [  2] Saude              | Agendar atendimento   | 05/12/2026 | Completo
+  [  3] Educacao           | Emitir documento novo | - | Pendente (faltam 1)
+  [  4] Assistencia social | Agendar atendimento   | 20/11/2026 | Completo
+  [  5] Cidadania          | Pedir 2a via          | - | Pendente (faltam 2)
   Total: 5 registro(s).
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
@@ -1838,6 +1958,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 5
    > 999
    > 0
@@ -1859,7 +1981,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -1876,6 +2000,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 5
    > 1
    > 1
@@ -1884,6 +2010,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 0
 ESPERADO: protocolo 2 depois de excluir o 1
 RESULTADO: PASSOU
@@ -1903,7 +2031,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -1919,7 +2049,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Saude).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 2
   Opcao > 
@@ -2016,6 +2148,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 6
    > 1
    > 0
@@ -2052,18 +2186,671 @@ Consulte sempre as fontes oficiais (gov.br).
   6 atendimento(s) de exemplo carregado(s).
   Opcao > 
 -- Ordenar (Selection Sort) --
-  Criterio: 1) Protocolo  2) Categoria  3) Pedido  >   [!] Opcao invalida. Digite um numero de 1 a 3.
-  Criterio: 1) Protocolo  2) Categoria  3) Pedido  >   Lista ordenada. Resultado:
-  ID    CATEGORIA          | PEDIDO                | SITUACAO
-  [  1] Documentacao       | Pedir 2a via          | Completo
-  [  2] Saude              | Agendar atendimento   | Completo
-  [  3] Educacao           | Emitir documento novo | Pendente (faltam 1)
-  [  4] Assistencia social | Agendar atendimento   | Completo
-  [  5] Cidadania          | Pedir 2a via          | Pendente (faltam 2)
-  [  6] Documentacao       | Emitir documento novo | Completo
+  Criterio: 1) Protocolo  2) Categoria  3) Pedido  4) Data  >   [!] Opcao invalida. Digite um numero de 1 a 4.
+  Criterio: 1) Protocolo  2) Categoria  3) Pedido  4) Data  >   Lista ordenada. Resultado:
+  ID    CATEGORIA          | PEDIDO                | DATA       | SITUACAO
+  [  1] Documentacao       | Pedir 2a via          | 10/12/2026 | Completo
+  [  2] Saude              | Agendar atendimento   | 05/12/2026 | Completo
+  [  3] Educacao           | Emitir documento novo | - | Pendente (faltam 1)
+  [  4] Assistencia social | Agendar atendimento   | 20/11/2026 | Completo
+  [  5] Cidadania          | Pedir 2a via          | - | Pendente (faltam 2)
+  [  6] Documentacao       | Emitir documento novo | 03/12/2026 | Completo
   Total: 6 registro(s).
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Data: mostra a data escolhida
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 12
+   > 10
+   > 0
+ESPERADO: mostra 10/12/2026 no pedido registrado
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Data: pergunta mes e dia
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 12
+   > 10
+   > 0
+ESPERADO: pergunta o mes
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Data: aparece na lista
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 12
+   > 10
+   > 7
+   > 0
+ESPERADO: data aparece na listagem
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Atendimentos --
+  ID    CATEGORIA          | PEDIDO                | DATA       | SITUACAO
+  [  1] Saude              | Agendar atendimento   | 10/12/2026 | Completo
+  Total: 1 registro(s).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Data: aparece na consulta
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 2
+   > s
+   > s
+   > s
+   > 1
+   > 12
+   > 10
+   > 2
+   > 1
+   > 0
+ESPERADO: data aparece na consulta
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Saude (consulta na UBS, Cartao SUS).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Cartao SUS? >   Comprovante de residencia? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Saude) para 10/12/2026.
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Consultar por protocolo --
+  Protocolo:   Protocolo ..: 1
+  Categoria ..: Saude
+  Pedido .....: Agendar atendimento
+  Situacao ...: Completo
+  Data .......: 10/12/2026
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Data: mes invalido (13)
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > s
+   > s
+   > s
+   > 1
+   > 13
+   > 12
+   > 10
+   > 0
+ESPERADO: rejeita mes 13
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Comprovante de residencia? >   Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   [!] Mes invalido. Digite um numero de 1 a 12.
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Documentacao) para 10/12/2026.
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Data: mes invalido (0)
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > s
+   > s
+   > s
+   > 1
+   > 0
+   > 12
+   > 10
+   > 0
+ESPERADO: rejeita mes 0
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Comprovante de residencia? >   Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   [!] Mes invalido. Digite um numero de 1 a 12.
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Documentacao) para 10/12/2026.
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Data: mes texto
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > s
+   > s
+   > s
+   > 1
+   > abc
+   > 12
+   > 10
+   > 0
+ESPERADO: rejeita texto no mes
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Comprovante de residencia? >   Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   [!] Mes invalido. Digite um numero de 1 a 12.
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Documentacao) para 10/12/2026.
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Data: dia invalido (32)
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > s
+   > s
+   > s
+   > 1
+   > 12
+   > 32
+   > 10
+   > 0
+ESPERADO: rejeita dia 32
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Comprovante de residencia? >   Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) >   [!] Dia invalido para esse mes. Digite um numero de 1 a 31.
+  Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Documentacao) para 10/12/2026.
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Data: dia 0
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > s
+   > s
+   > s
+   > 1
+   > 12
+   > 0
+   > 10
+   > 0
+ESPERADO: rejeita dia 0
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Comprovante de residencia? >   Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) >   [!] Dia invalido para esse mes. Digite um numero de 1 a 31.
+  Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Documentacao) para 10/12/2026.
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Data: 31 de novembro
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > s
+   > s
+   > s
+   > 1
+   > 11
+   > 31
+   > 30
+   > 0
+ESPERADO: novembro so vai ate 30
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Comprovante de residencia? >   Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 30) >   [!] Dia invalido para esse mes. Digite um numero de 1 a 30.
+  Dia (1 a 30) > 
+  Pedido registrado: Agendar atendimento (Documentacao) para 30/11/2026.
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Data: 29 de fevereiro
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > s
+   > s
+   > s
+   > 1
+   > 2
+   > 29
+   > 28
+   > 0
+ESPERADO: 2026 nao e bissexto
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Comprovante de residencia? >   Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 28) >   [!] Dia invalido para esse mes. Digite um numero de 1 a 28.
+  Dia (1 a 28) > 
+  Pedido registrado: Agendar atendimento (Documentacao) para 28/02/2026.
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Data: 28 de fevereiro vale
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 1
+   > s
+   > s
+   > s
+   > 1
+   > 2
+   > 28
+   > 0
+ESPERADO: aceita 28/02
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Documentacao (RG, CPF, certidoes).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento com foto? >   Comprovante de residencia? >   Certidao de nascimento ou casamento? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 28) > 
+  Pedido registrado: Agendar atendimento (Documentacao) para 28/02/2026.
+  Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Pendente: nao pede data
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 3
+   > s
+   > n
+   > s
+   > 2
+   > 0
+ESPERADO: nao pergunta data se faltam documentos
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Educacao (matricula, historico escolar).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento do aluno ou responsavel? >   Comprovante de residencia? >     Falta: Comprovante de residencia
+  Historico escolar ou certidao? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: PENDENTE - faltam 1 documento(s).
+  Reuna os documentos que faltam e use a opcao 4 para atualizar este atendimento.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Pendente: data fica vazia
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 3
+   > s
+   > n
+   > s
+   > 2
+   > 2
+   > 1
+   > 0
+ESPERADO: mostra - na data
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Educacao (matricula, historico escolar).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento do aluno ou responsavel? >   Comprovante de residencia? >     Falta: Comprovante de residencia
+  Historico escolar ou certidao? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: PENDENTE - faltam 1 documento(s).
+  Reuna os documentos que faltam e use a opcao 4 para atualizar este atendimento.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Consultar por protocolo --
+  Protocolo:   Protocolo ..: 1
+  Categoria ..: Educacao
+  Pedido .....: Pedir 2a via
+  Situacao ...: Pendente (faltam 1)
+  Data .......: -
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Atualizar: completo pede data
+ENTRADA (cada linha = um Enter):
+   > 1
+   > 3
+   > s
+   > n
+   > s
+   > 2
+   > 4
+   > 1
+   > s
+   > s
+   > s
+   > 12
+   > 10
+   > 2
+   > 1
+   > 0
+ESPERADO: data escolhida ao completar
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+-- Novo atendimento --
+  Escolha a categoria do atendimento:
+  Categoria >   Categoria: Educacao (matricula, historico escolar).
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento do aluno ou responsavel? >   Comprovante de residencia? >     Falta: Comprovante de residencia
+  Historico escolar ou certidao? > 
+  O que voce deseja fazer?
+  Opcao > 
+  Situacao: PENDENTE - faltam 1 documento(s).
+  Reuna os documentos que faltam e use a opcao 4 para atualizar este atendimento.
+  Atendimento registrado. Protocolo: 1
+  Opcao > 
+-- Atualizar documentos --
+  Protocolo do atendimento:   Atendimento atual:
+  Protocolo ..: 1
+  Categoria ..: Educacao
+  Pedido .....: Pedir 2a via
+  Situacao ...: Pendente (faltam 1)
+  Data .......: -
+  Voce tem estes documentos em maos? Responda s (sim) ou n (nao).
+  Nao digite numeros de documentos, so responda s ou n.
+  Documento do aluno ou responsavel? >   Comprovante de residencia? >   Historico escolar ou certidao? > 
+  Situacao: COMPLETO - voce tem todos os documentos.
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) >   Atendimento 1 atualizado.
+  Opcao > 
+-- Consultar por protocolo --
+  Protocolo:   Protocolo ..: 1
+  Categoria ..: Educacao
+  Pedido .....: Pedir 2a via
+  Situacao ...: Completo
+  Data .......: 10/12/2026
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Exemplos: tem datas
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 7
+   > 0
+ESPERADO: exemplos com data
+RESULTADO: PASSOU
+--- saida observada (sem o menu repetido) ---
+*** AVISO ***
+Prototipo educacional. NAO e um canal oficial, NAO confirma a
+concessao de servicos ou direitos e NAO agenda de verdade.
+Nao informe dados pessoais nem numeros de documentos.
+Consulte sempre as fontes oficiais (gov.br).
+  Opcao > 
+  6 atendimento(s) de exemplo carregado(s).
+  Opcao > 
+-- Atendimentos --
+  ID    CATEGORIA          | PEDIDO                | DATA       | SITUACAO
+  [  1] Documentacao       | Pedir 2a via          | 10/12/2026 | Completo
+  [  2] Saude              | Agendar atendimento   | 05/12/2026 | Completo
+  [  3] Educacao           | Emitir documento novo | - | Pendente (faltam 1)
+  [  4] Assistencia social | Agendar atendimento   | 20/11/2026 | Completo
+  [  5] Cidadania          | Pedir 2a via          | - | Pendente (faltam 2)
+  [  6] Documentacao       | Emitir documento novo | 03/12/2026 | Completo
+  Total: 6 registro(s).
+  Opcao > 
+  Encerrando. Memoria liberada. Ate logo!
+==================================================
+TESTE: Ordenar por data
+ENTRADA (cada linha = um Enter):
+   > 9
+   > 5
+   > 3
+   > 5
+   > 5
+   > 6
+   > 4
+   > 0
+ESPERADO (ordem dos protocolos): 4,6,2,1,
+OBSERVADO: 4,6,2,1,
+RESULTADO: PASSOU
 ==================================================
 TESTE: Analise: total
 ENTRADA (cada linha = um Enter):
@@ -2325,6 +3112,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > s
    > 1
+   > 12
+   > 10
    > 0
 ESPERADO: rejeita x e pergunta de novo
 RESULTADO: PASSOU
@@ -2345,7 +3134,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Documentacao).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Documentacao) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -2360,6 +3151,8 @@ ENTRADA (cada linha = um Enter):
    > s
    > 9
    > 1
+   > 12
+   > 10
    > 0
 ESPERADO: rejeita 9
 RESULTADO: PASSOU
@@ -2381,7 +3174,9 @@ Consulte sempre as fontes oficiais (gov.br).
   O que voce deseja fazer?
   Opcao > 
   Situacao: COMPLETO - voce tem todos os documentos.
-  Pedido registrado: Agendar atendimento (Documentacao).
+  Escolha a data do atendimento (ano 2026).
+  Mes (1 a 12) >   Dia (1 a 31) > 
+  Pedido registrado: Agendar atendimento (Documentacao) para 10/12/2026.
   Aviso: e um prototipo, nada foi agendado de verdade. Confirme no canal oficial.
   Atendimento registrado. Protocolo: 1
   Opcao > 
@@ -2411,6 +3206,7 @@ Consulte sempre as fontes oficiais (gov.br).
   Categoria ..: Documentacao
   Pedido .....: Pedir 2a via
   Situacao ...: Completo
+  Data .......: 10/12/2026
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
 ==================================================
@@ -2438,6 +3234,7 @@ Consulte sempre as fontes oficiais (gov.br).
   Categoria ..: Documentacao
   Pedido .....: Pedir 2a via
   Situacao ...: Completo
+  Data .......: 10/12/2026
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
 ==================================================
@@ -2465,6 +3262,7 @@ Consulte sempre as fontes oficiais (gov.br).
   Categoria ..: Documentacao
   Pedido .....: Pedir 2a via
   Situacao ...: Completo
+  Data .......: 10/12/2026
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
 ==================================================
@@ -2492,6 +3290,7 @@ Consulte sempre as fontes oficiais (gov.br).
   Categoria ..: Documentacao
   Pedido .....: Pedir 2a via
   Situacao ...: Completo
+  Data .......: 10/12/2026
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
 ==================================================
@@ -2565,10 +3364,5 @@ Nao informe dados pessoais nem numeros de documentos.
 Consulte sempre as fontes oficiais (gov.br).
   Opcao > 
   Encerrando. Memoria liberada. Ate logo!
-RESUMO: 85 passaram, 0 falharam
+RESUMO: 102 passaram, 0 falharam
 ==================================================
-VALGRIND (exemplos, novo atendimento, exclusao, ordenacao, atualizacao e saida):
-==4669== HEAP SUMMARY:
-==4669==   total heap usage: 9 allocs, 9 frees, 8,360 bytes allocated
-==4669== All heap blocks were freed -- no leaks are possible
-==4669== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
